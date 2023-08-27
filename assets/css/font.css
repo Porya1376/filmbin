@@ -1,0 +1,57 @@
+/* to do: insert TTF */
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../font/eot/Vazir-Thin.eot');
+	src: url('../font/eot/Vazir-Thin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/Vazir-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/Vazir-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../font/eot/Vazir-Light.eot');
+	src: url('../font/eot/Vazir-Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/Vazir-Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/Vazir-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../font/eot/Vazir-Medium.eot');
+	src: url('../font/eot/Vazir-Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/Vazir-Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/Vazir-Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../font/eot/Vazir-Black.eot');
+	src: url('../font/eot/Vazir-Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/Vazir-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/Vazir-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/eot/Vazir-Bold.eot');
+	src: url('../font/eot/Vazir-Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/Vazir-Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/Vazir-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/eot/Vazir.eot');
+	src: url('../font/eot/Vazir.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../font/woff2/Vazir.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../font/woff/Vazir.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
