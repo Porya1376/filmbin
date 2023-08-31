@@ -1,5 +1,72 @@
 @import "font.css";
 
+$blue100 :#182131;
+$white100 :#fff;
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: vazir;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: $blue100;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+
+        .movie-logo {
+            min-width: 30%;
+
+            h1 {
+                display: flex;
+            }
+
+            h1 a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-decoration: none;
+
+                span {
+                    font-weight: 700;
+                    color: $white100;
+                    font-size: 27px;
+                    padding: 3px 0;
+                }
+            }
+        }
+
+        .movie-searchbar {
+            min-width: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+                width: 100%;
+            }
+        }
+
+        .user-box {
+            min-width: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
 }

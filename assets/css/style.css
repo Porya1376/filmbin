@@ -1,4 +1,59 @@
 @import "font.css";
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: vazir;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #182131;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+header .content .movie-logo {
+  min-width: 30%;
+}
+header .content .movie-logo h1 {
+  display: flex;
+}
+header .content .movie-logo h1 a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+header .content .movie-logo h1 a span {
+  font-weight: 700;
+  color: #fff;
+  font-size: 27px;
+  padding: 3px 0;
+}
+header .content .movie-searchbar {
+  min-width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .content .movie-searchbar input {
+  width: 100%;
+}
+header .content .user-box {
+  min-width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
