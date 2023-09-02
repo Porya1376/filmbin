@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112.363" height="20.617" viewBox="0 0 112.363 20.617">
+  <g id="Movie_Rating_1" data-name="Movie Rating 1" transform="translate(0.988 1.25)">
+    <path id="Star" d="M8.942,15.255,3.654,18.4l1.01-6.656L.386,7.027,6.3,6.056,8.942,0l2.644,6.056,5.912.971-4.278,4.714L14.23,18.4Z" transform="translate(-0.386 0)" fill="#feb900" stroke="#f5a623" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Star-2" data-name="Star" d="M8.942,15.255,3.654,18.4l1.01-6.656L.386,7.027,6.3,6.056,8.942,0l2.644,6.056,5.912.971-4.278,4.714L14.23,18.4Z" transform="translate(22.933 0)" fill="#feb900" stroke="#f5a623" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Star-3" data-name="Star" d="M8.942,15.255,3.654,18.4l1.01-6.656L.386,7.027,6.3,6.056,8.942,0l2.644,6.056,5.912.971-4.278,4.714L14.23,18.4Z" transform="translate(46.251 0)" fill="#feb900" stroke="#f5a623" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Star-4" data-name="Star" d="M8.942,15.255,3.654,18.4l1.01-6.656L.386,7.027,6.3,6.056,8.942,0l2.644,6.056,5.912.971-4.278,4.714L14.23,18.4Z" transform="translate(69.57 0)" fill="#feb900" stroke="#f5a623" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Star-5" data-name="Star" d="M8.942,15.255,3.654,18.4l1.01-6.656L.386,7.027,6.3,6.056,8.942,0l2.644,6.056,5.912.971-4.278,4.714L14.23,18.4Z" transform="translate(92.889 0)" fill="#d8d8d8" stroke="#d8d8d8" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

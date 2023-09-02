@@ -2,6 +2,7 @@
 
 $blue100 :#182131;
 $white100 :#fff;
+$black400 : rgba(255, 255, 255, 0.32);
 
 
 h1 {
@@ -13,6 +14,14 @@ body {
     font-family: vazir;
     margin: 0;
     padding: 0;
+}
+
+body, input, select, textarea, *{
+    font-family: vazir;
+}
+
+input:focus{
+    outline: none;
 }
 
 .container {
@@ -30,7 +39,7 @@ header {
         padding: 12px 0;
 
         .movie-logo {
-            min-width: 30%;
+            min-width: 20%;
 
             h1 {
                 display: flex;
@@ -52,18 +61,32 @@ header {
         }
 
         .movie-searchbar {
-            min-width: 40%;
+            min-width: 60%;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
 
             input {
-                width: 100%;
+                width: 60%;
+                font-size: 13px;
+                background-image: url(../image/header/Icon.svg);
+                background-repeat: no-repeat;
+                background-color: $black400;
+                color: $white100;
+                padding: 8px 11px;
+                border-radius: 25px;
+                border: unset;
+                background-position: 10px;
             }
+
+            input::placeholder {
+                color: $white100;
+            }
+            
         }
 
         .user-box {
-            min-width: 30%;
+            min-width: 20%;
             display: flex;
             justify-content: space-between;
             align-items: center;

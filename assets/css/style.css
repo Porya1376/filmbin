@@ -10,6 +10,14 @@ body {
   padding: 0;
 }
 
+body, input, select, textarea, * {
+  font-family: vazir;
+}
+
+input:focus {
+  outline: none;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -25,7 +33,7 @@ header .content {
   padding: 12px 0;
 }
 header .content .movie-logo {
-  min-width: 30%;
+  min-width: 20%;
 }
 header .content .movie-logo h1 {
   display: flex;
@@ -43,16 +51,31 @@ header .content .movie-logo h1 a span {
   padding: 3px 0;
 }
 header .content .movie-searchbar {
-  min-width: 40%;
+  min-width: 60%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 header .content .movie-searchbar input {
-  width: 100%;
+  width: 60%;
+  font-size: 13px;
+  background-image: url(../image/header/Icon.svg);
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.32);
+  color: #fff;
+  padding: 8px 11px;
+  border-radius: 25px;
+  border: unset;
+  background-position: 10px;
+}
+header .content .movie-searchbar input::-moz-placeholder {
+  color: #fff;
+}
+header .content .movie-searchbar input::placeholder {
+  color: #fff;
 }
 header .content .user-box {
-  min-width: 30%;
+  min-width: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;

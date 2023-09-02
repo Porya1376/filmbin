@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <g id="VIDEO" transform="translate(0.678 0.725)">
+    <g id="PLAY" transform="translate(0 0)">
+      <circle id="Oval" cx="36" cy="36" r="36" transform="translate(0.322 0.275)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="triangle-right-17" transform="translate(28.945 20.809)">
+        <path id="Path" d="M1.032.13A.629.629,0,0,0,.355.073.68.68,0,0,0,0,.676V30.427a.68.68,0,0,0,.355.6.627.627,0,0,0,.677-.057L20.471,16.1a.7.7,0,0,0,0-1.091Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
