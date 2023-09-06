@@ -33,7 +33,7 @@ header .content {
   padding: 12px 0;
 }
 header .content .movie-logo {
-  min-width: 20%;
+  min-width: 23%;
 }
 header .content .movie-logo h1 {
   display: flex;
@@ -51,7 +51,7 @@ header .content .movie-logo h1 a span {
   padding: 3px 0;
 }
 header .content .movie-searchbar {
-  min-width: 60%;
+  min-width: 54%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,20 +63,36 @@ header .content .movie-searchbar input {
   background-repeat: no-repeat;
   background-color: rgba(255, 255, 255, 0.32);
   color: #fff;
-  padding: 8px 11px;
+  padding: 12px 11px;
   border-radius: 25px;
   border: unset;
   background-position: 10px;
 }
 header .content .movie-searchbar input::-moz-placeholder {
-  color: #fff;
+  color: #808591;
 }
 header .content .movie-searchbar input::placeholder {
-  color: #fff;
+  color: #808591;
 }
 header .content .user-box {
-  min-width: 20%;
+  min-width: 23%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header .content .user-box .profile-box {
+  display: flex;
+  align-items: center;
+}
+header .content .user-box .profile-box img {
+  width: 40px;
+  border-radius: 25px;
+}
+header .content .user-box .profile-box span {
+  margin: 0 15px;
+  color: #fff;
+  font-size: 15px;
+}
+header .content .user-box .action :first-child {
+  margin-left: 17px;
 }/*# sourceMappingURL=style.css.map */
