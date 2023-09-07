@@ -161,4 +161,37 @@ header .content .user-box .action :first-child {
 }
 .movie-introduce .content .movie-info .bottom .movie-cast span {
   font-weight: 300;
+}
+
+.movie-navbar {
+  background-color: #182131;
+}
+.movie-navbar .container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.movie-navbar .container .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-navbar .container .content ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-navbar .container .content ul .active {
+  display: flex;
+  justify-self: unset;
+  flex-direction: column;
+}
+.movie-navbar .container .content ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 300;
+}
+.movie-navbar .container .content ul li {
+  list-style-type: none;
+  padding: 0 19px;
 }/*# sourceMappingURL=style.css.map */

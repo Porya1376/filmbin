@@ -212,3 +212,45 @@ header {
         }
     }
 }
+
+.movie-navbar {
+    background-color: $blue100;
+
+    .container {
+
+        max-width: 1140px;
+        margin: 0 auto;
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .active{
+                    display: flex;
+                    justify-self: unset;
+                    flex-direction: column;
+                }
+
+                li a {
+                    color: $white100;
+                    text-decoration: none;
+                    font-size: 19px;
+                    font-weight: 300;
+
+                }
+
+                li {
+                    list-style-type: none;
+                    padding: 0 19px;
+                }
+            }
+        }
+
+    }
+}
