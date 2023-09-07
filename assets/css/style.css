@@ -10,7 +10,11 @@ body {
   padding: 0;
 }
 
-body, input, select, textarea, * {
+body,
+input,
+select,
+textarea,
+* {
   font-family: vazir;
 }
 
@@ -95,4 +99,66 @@ header .content .user-box .profile-box span {
 }
 header .content .user-box .action :first-child {
   margin-left: 17px;
+}
+
+.movie-introduce {
+  background-image: url(../image/movie_introduce/movie_introduce_background.jpg);
+}
+.movie-introduce .dark-background {
+  background-color: rgba(16, 17, 17, 0.4588235294);
+}
+.movie-introduce .container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.movie-introduce .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-introduce .content .movie-image img {
+  border-radius: 7px;
+  margin-left: 40px;
+}
+.movie-introduce .content .movie-info .top h2 {
+  color: #fff;
+  font-size: 43px;
+  font-weight: 600;
+}
+.movie-introduce .content .movie-info .top .note {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.movie-introduce .content .movie-info .top .note p {
+  margin-left: 19px;
+}
+.movie-introduce .content .movie-info .top .note .movie-preview {
+  display: flex;
+  align-items: center;
+}
+.movie-introduce .content .movie-info .top .note .movie-preview span {
+  margin-right: 9px;
+  font-weight: 100;
+}
+.movie-introduce .content .movie-info .center {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 45px;
+  text-align: justify;
+}
+.movie-introduce .content .movie-info .bottom {
+  color: #fff;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  width: 45%;
+}
+.movie-introduce .content .movie-info .bottom .movie-cast p {
+  margin-bottom: 1px;
+  font-weight: 500px;
+}
+.movie-introduce .content .movie-info .bottom .movie-cast span {
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

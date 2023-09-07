@@ -4,6 +4,8 @@ $blue100 :#182131;
 $white100 :#fff;
 $black400 : rgba(255, 255, 255, 0.32);
 $black200 : #808591;
+$black300 :#10111175;
+
 
 
 
@@ -18,11 +20,15 @@ body {
     padding: 0;
 }
 
-body, input, select, textarea, *{
+body,
+input,
+select,
+textarea,
+* {
     font-family: vazir;
 }
 
-input:focus{
+input:focus {
     outline: none;
 }
 
@@ -84,7 +90,7 @@ header {
             input::placeholder {
                 color: $black200;
             }
-            
+
         }
 
         .user-box {
@@ -93,23 +99,116 @@ header {
             justify-content: space-between;
             align-items: center;
 
-            .profile-box{
+            .profile-box {
                 display: flex;
                 align-items: center;
-                img{
+
+                img {
                     width: 40px;
                     border-radius: 25px;
                 }
-                span{
+
+                span {
                     margin: 0 15px;
                     color: $white100;
                     font-size: 15px;
                 }
             }
-            .action :first-child{
+
+            .action :first-child {
                 margin-left: 17px;
             }
-            
+
+        }
+    }
+}
+
+.movie-introduce {
+    background-image: url(../image/movie_introduce/movie_introduce_background.jpg);
+
+    .dark-background {
+        background-color: $black300;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+
+
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .movie-image {
+            img {
+                border-radius: 7px;
+                margin-left: 40px;
+            }
+
+        }
+
+        .movie-info {
+            .top {
+                h2 {
+                    color: $white100;
+                    font-size: 43px;
+                    font-weight: 600;
+                }
+
+                .note {
+                    color: $white100;
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        margin-left: 19px;
+                    }
+
+
+                    .movie-preview {
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            margin-right: 9px;
+                            font-weight: 100;
+                        }
+
+                    }
+                }
+            }
+
+
+
+            .center {
+                color: $white100;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 45px;
+                text-align: justify;
+            }
+
+            .bottom {
+                color: $white100;
+                display: flex;
+                /* flex-direction: column; */
+                justify-content: space-between;
+                width: 45%;
+
+                .movie-cast {
+                    p {
+                        margin-bottom: 1px;
+                        font-weight: 500px;
+                    }
+
+                    span {
+                        font-weight: 300;
+                    }
+                }
+            }
         }
     }
 }
