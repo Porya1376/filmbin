@@ -5,6 +5,7 @@ $white100 :#fff;
 $black400 : rgba(255, 255, 255, 0.32);
 $black200 : #808591;
 $black300 :#10111175;
+$yellow100: yellow;
 
 
 
@@ -125,6 +126,10 @@ header {
 
 .movie-introduce {
     background-image: url(../image/movie_introduce/movie_introduce_background.jpg);
+    background-size: cover;
+    /* background: repeat; */
+    background-repeat: no-repeat;
+
 
     .dark-background {
         background-color: $black300;
@@ -141,6 +146,8 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 70px 0;
+
 
         .movie-image {
             img {
@@ -215,6 +222,8 @@ header {
 
 .movie-navbar {
     background-color: $blue100;
+    border-bottom: 1px solid $black200;
+    padding: 3px 0;
 
     .container {
 
@@ -230,11 +239,29 @@ header {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                padding: 0;
+                position: relative;
+                margin: 0;
 
-                .active{
+                :first-child {
+                    padding-right: 0px;
+                }
+
+                .active {
                     display: flex;
                     justify-self: unset;
                     flex-direction: column;
+
+                    // border-bottom: 1px solid $yellow100;
+                    svg {
+                        position: absolute;
+                        bottom: -3px;
+                    }
+
+                    a {
+
+                        color: $yellow100;
+                    }
                 }
 
                 li a {
@@ -247,8 +274,9 @@ header {
 
                 li {
                     list-style-type: none;
-                    padding: 0 19px;
+                    padding: 10px 28px;
                 }
+
             }
         }
 
