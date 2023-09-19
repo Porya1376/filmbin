@@ -1,6 +1,7 @@
 @import "font.css";
 
 $blue100 :#182131;
+$blue300: #25344b;
 $white100 :#fff;
 $black400 : rgba(255, 255, 255, 0.32);
 $black200 : #808591;
@@ -10,7 +11,13 @@ $yellow100: yellow;
 
 
 
-h1 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
 }
@@ -31,6 +38,10 @@ textarea,
 
 input:focus {
     outline: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -280,5 +291,66 @@ header {
             }
         }
 
+    }
+}
+
+.movie-actros {
+    background-color: $blue100;
+    padding: 20px 0;
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+
+
+        .content {
+
+            .movie-actor-boxes {
+                display: flex;
+                margin-right: -6px;
+                flex-wrap: wrap;
+
+                .movie-actor-box {
+                    border-radius: 11px;
+                    overflow: hidden;
+                    margin: 10px 6px;
+                    width: 18%;
+
+                    .top {
+                        height: 225px;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .bottom {
+                        background-color: $blue300;
+                        padding: 4px 0;
+                        text-align: center;
+
+                        span,
+                        h4 {
+                            color: $white100;
+                        }
+
+                    }
+                }
+            }
+
+
+            color: $white100;
+            border-bottom: 1px solid $black200;
+
+            h3 {
+                color: $white100;
+                font-size: 25px;
+                font-weight: 500;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+        }
     }
 }

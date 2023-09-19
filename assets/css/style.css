@@ -1,5 +1,10 @@
 @import "font.css";
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -20,6 +25,10 @@ textarea,
 
 input:focus {
   outline: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -213,4 +222,53 @@ header .content .user-box .action :first-child {
 .movie-navbar .container .content ul li {
   list-style-type: none;
   padding: 10px 28px;
+}
+
+.movie-actros {
+  background-color: #182131;
+  padding: 20px 0;
+}
+.movie-actros .container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.movie-actros .container .content {
+  color: #fff;
+  border-bottom: 1px solid #808591;
+}
+.movie-actros .container .content .movie-actor-boxes {
+  display: flex;
+  margin-right: -6px;
+  flex-wrap: wrap;
+}
+.movie-actros .container .content .movie-actor-boxes .movie-actor-box {
+  border-radius: 11px;
+  overflow: hidden;
+  margin: 10px 6px;
+  width: 18%;
+}
+.movie-actros .container .content .movie-actor-boxes .movie-actor-box .top {
+  height: 225px;
+}
+.movie-actros .container .content .movie-actor-boxes .movie-actor-box .top img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.movie-actros .container .content .movie-actor-boxes .movie-actor-box .bottom {
+  background-color: #25344b;
+  padding: 4px 0;
+  text-align: center;
+}
+.movie-actros .container .content .movie-actor-boxes .movie-actor-box .bottom span,
+.movie-actros .container .content .movie-actor-boxes .movie-actor-box .bottom h4 {
+  color: #fff;
+}
+.movie-actros .container .content h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
