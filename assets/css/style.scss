@@ -7,6 +7,7 @@ $black400 : rgba(255, 255, 255, 0.32);
 $black200 : #808591;
 $black300 :#10111175;
 $yellow100: yellow;
+$yellow200: #FFBB00;
 
 
 
@@ -146,13 +147,6 @@ header {
         background-color: $black300;
     }
 
-    .container {
-        max-width: 1140px;
-        margin: 0 auto;
-
-
-    }
-
     .content {
         display: flex;
         justify-content: space-between;
@@ -236,61 +230,54 @@ header {
     border-bottom: 1px solid $black200;
     padding: 3px 0;
 
-    .container {
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        max-width: 1140px;
-        margin: 0 auto;
-
-        .content {
+        ul {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 0;
+            position: relative;
+            margin: 0;
 
-            ul {
+            :first-child {
+                padding-right: 0px;
+            }
+
+            .active {
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 0;
-                position: relative;
-                margin: 0;
+                justify-self: unset;
+                flex-direction: column;
 
-                :first-child {
-                    padding-right: 0px;
+                // border-bottom: 1px solid $yellow100;
+                svg {
+                    position: absolute;
+                    bottom: -3px;
                 }
 
-                .active {
-                    display: flex;
-                    justify-self: unset;
-                    flex-direction: column;
+                a {
 
-                    // border-bottom: 1px solid $yellow100;
-                    svg {
-                        position: absolute;
-                        bottom: -3px;
-                    }
-
-                    a {
-
-                        color: $yellow100;
-                    }
+                    color: $yellow100;
                 }
+            }
 
-                li a {
-                    color: $white100;
-                    text-decoration: none;
-                    font-size: 19px;
-                    font-weight: 300;
-
-                }
-
-                li {
-                    list-style-type: none;
-                    padding: 10px 28px;
-                }
+            li a {
+                color: $white100;
+                text-decoration: none;
+                font-size: 19px;
+                font-weight: 300;
 
             }
-        }
 
+            li {
+                list-style-type: none;
+                padding: 10px 28px;
+            }
+
+        }
     }
 }
 
@@ -298,58 +285,163 @@ header {
     background-color: $blue100;
     padding: 20px 0;
 
-    .container {
-        max-width: 1140px;
-        margin: 0 auto;
+    .content {
+
+        .movie-actor-boxes {
+            display: flex;
+            margin-right: -6px;
+            flex-wrap: wrap;
+
+            .movie-actor-box {
+                border-radius: 11px;
+                overflow: hidden;
+                margin: 10px 6px;
+                width: 18%;
+
+                .top {
+                    height: 225px;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .bottom {
+                    background-color: $blue300;
+                    padding: 4px 0;
+                    text-align: center;
+
+                    span,
+                    h4 {
+                        color: $white100;
+                    }
+
+                }
+            }
+        }
 
 
-        .content {
+        color: $white100;
+        border-bottom: 1px solid $black200;
 
-            .movie-actor-boxes {
+        h3 {
+            color: $white100;
+            font-size: 25px;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+    }
+
+    h4 {
+        color: $yellow100;
+        margin: 17px 0;
+
+    }
+}
+
+.movie-comment {
+    background-color: $blue100;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+
+        .top {
+            h3 {
+                color: $white100;
+                margin: 5px 0;
+                font-size: 25px;
+            }
+        }
+
+        .center {
+            display: flex;
+            justify-content: space-between;
+
+
+
+            .movie-comment-box {
                 display: flex;
-                margin-right: -6px;
-                flex-wrap: wrap;
+                margin-right: 41px;
 
-                .movie-actor-box {
-                    border-radius: 11px;
-                    overflow: hidden;
-                    margin: 10px 6px;
-                    width: 18%;
+                .movie-comment-box-image {
+                    margin-left: 16px;
 
+                    img {
+                        border-radius: 41px;
+
+                    }
+                }
+
+                .movie-comment-box-info {
                     .top {
-                        height: 225px;
+                        display: flex;
+                        align-items: center;
 
-                        img {
-                            height: 100%;
-                            width: 100%;
-                            object-fit: cover;
+                        h5 {
+                            font-size: 18px;
+                            color: $white100;
+
+                        }
+
+                        svg {
+                            margin: 0 12px;
+                        }
+
+                        span {
+                            color: $white100;
                         }
                     }
 
                     .bottom {
-                        background-color: $blue300;
-                        padding: 4px 0;
-                        text-align: center;
-
-                        span,
-                        h4 {
+                        p {
                             color: $white100;
+                            line-height: 31px;
+                            font-weight: 300;
                         }
 
+                        a {
+                            color: $yellow200;
+                        }
                     }
                 }
             }
 
+        }
 
-            color: $white100;
-            border-bottom: 1px solid $black200;
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-            h3 {
-                color: $white100;
-                font-size: 25px;
-                font-weight: 500;
-                margin-top: 0;
-                margin-bottom: 15px;
+            .right {
+                span {
+                    color: $white100;
+                    font-weight: 300;
+
+                }
+
+                a {
+                    color: $yellow200;
+                    font-size: 17px;
+                    font-weight: 300;
+                    border: 1px solid $yellow200;
+                    border-radius: 6px;
+                    padding: 6px 14px;
+                    
+                }
+
+            }
+            .left{
+                a{
+                    font-weight: 400;
+                    color: $white100;
+
+                }
+
             }
         }
     }

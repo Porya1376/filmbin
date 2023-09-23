@@ -119,10 +119,6 @@ header .content .user-box .action :first-child {
 .movie-introduce .dark-background {
   background-color: rgba(16, 17, 17, 0.4588235294);
 }
-.movie-introduce .container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
 .movie-introduce .content {
   display: flex;
   justify-content: space-between;
@@ -181,16 +177,12 @@ header .content .user-box .action :first-child {
   border-bottom: 1px solid #808591;
   padding: 3px 0;
 }
-.movie-navbar .container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-.movie-navbar .container .content {
+.movie-navbar .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.movie-navbar .container .content ul {
+.movie-navbar .content ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,28 +190,28 @@ header .content .user-box .action :first-child {
   position: relative;
   margin: 0;
 }
-.movie-navbar .container .content ul :first-child {
+.movie-navbar .content ul :first-child {
   padding-right: 0px;
 }
-.movie-navbar .container .content ul .active {
+.movie-navbar .content ul .active {
   display: flex;
   justify-self: unset;
   flex-direction: column;
 }
-.movie-navbar .container .content ul .active svg {
+.movie-navbar .content ul .active svg {
   position: absolute;
   bottom: -3px;
 }
-.movie-navbar .container .content ul .active a {
+.movie-navbar .content ul .active a {
   color: yellow;
 }
-.movie-navbar .container .content ul li a {
+.movie-navbar .content ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 19px;
   font-weight: 300;
 }
-.movie-navbar .container .content ul li {
+.movie-navbar .content ul li {
   list-style-type: none;
   padding: 10px 28px;
 }
@@ -228,47 +220,117 @@ header .content .user-box .action :first-child {
   background-color: #182131;
   padding: 20px 0;
 }
-.movie-actros .container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-.movie-actros .container .content {
+.movie-actros .content {
   color: #fff;
   border-bottom: 1px solid #808591;
 }
-.movie-actros .container .content .movie-actor-boxes {
+.movie-actros .content .movie-actor-boxes {
   display: flex;
   margin-right: -6px;
   flex-wrap: wrap;
 }
-.movie-actros .container .content .movie-actor-boxes .movie-actor-box {
+.movie-actros .content .movie-actor-boxes .movie-actor-box {
   border-radius: 11px;
   overflow: hidden;
   margin: 10px 6px;
   width: 18%;
 }
-.movie-actros .container .content .movie-actor-boxes .movie-actor-box .top {
+.movie-actros .content .movie-actor-boxes .movie-actor-box .top {
   height: 225px;
 }
-.movie-actros .container .content .movie-actor-boxes .movie-actor-box .top img {
+.movie-actros .content .movie-actor-boxes .movie-actor-box .top img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.movie-actros .container .content .movie-actor-boxes .movie-actor-box .bottom {
+.movie-actros .content .movie-actor-boxes .movie-actor-box .bottom {
   background-color: #25344b;
   padding: 4px 0;
   text-align: center;
 }
-.movie-actros .container .content .movie-actor-boxes .movie-actor-box .bottom span,
-.movie-actros .container .content .movie-actor-boxes .movie-actor-box .bottom h4 {
+.movie-actros .content .movie-actor-boxes .movie-actor-box .bottom span,
+.movie-actros .content .movie-actor-boxes .movie-actor-box .bottom h4 {
   color: #fff;
 }
-.movie-actros .container .content h3 {
+.movie-actros .content h3 {
   color: #fff;
   font-size: 25px;
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 15px;
+}
+.movie-actros h4 {
+  color: yellow;
+  margin: 17px 0;
+}
+
+.movie-comment {
+  background-color: #182131;
+}
+.movie-comment .content {
+  display: flex;
+  flex-direction: column;
+}
+.movie-comment .content .top h3 {
+  color: #fff;
+  margin: 5px 0;
+  font-size: 25px;
+}
+.movie-comment .content .center {
+  display: flex;
+  justify-content: space-between;
+}
+.movie-comment .content .center .movie-comment-box {
+  display: flex;
+  margin-right: 41px;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-image {
+  margin-left: 16px;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-image img {
+  border-radius: 41px;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top {
+  display: flex;
+  align-items: center;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top h5 {
+  font-size: 18px;
+  color: #fff;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top svg {
+  margin: 0 12px;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top span {
+  color: #fff;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .bottom p {
+  color: #fff;
+  line-height: 31px;
+  font-weight: 300;
+}
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .bottom a {
+  color: #FFBB00;
+}
+.movie-comment .content .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-comment .content .bottom .right span {
+  color: #fff;
+  font-weight: 300;
+}
+.movie-comment .content .bottom .right a {
+  color: #FFBB00;
+  font-size: 17px;
+  font-weight: 300;
+  border: 1px solid #FFBB00;
+  border-radius: 6px;
+  padding: 6px 14px;
+}
+.movie-comment .content .bottom .left a {
+  font-weight: 400;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
