@@ -267,6 +267,14 @@ header .content .user-box .action :first-child {
 
 .movie-comment {
   background-color: #182131;
+  position: relative;
+}
+.movie-comment .right-background, .movie-comment .left-background {
+  position: absolute;
+  top: 35%;
+}
+.movie-comment .left-background {
+  left: 0;
 }
 .movie-comment .content {
   display: flex;
@@ -280,10 +288,14 @@ header .content .user-box .action :first-child {
 .movie-comment .content .center {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.movie-comment .content .center .center-border {
+  margin: 0 15px;
+  background-color: #808591;
 }
 .movie-comment .content .center .movie-comment-box {
   display: flex;
-  margin-right: 41px;
 }
 .movie-comment .content .center .movie-comment-box .movie-comment-box-image {
   margin-left: 16px;
@@ -291,26 +303,26 @@ header .content .user-box .action :first-child {
 .movie-comment .content .center .movie-comment-box .movie-comment-box-image img {
   border-radius: 41px;
 }
-.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top {
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .box-info-top {
   display: flex;
   align-items: center;
 }
-.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top h5 {
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .box-info-top h5 {
   font-size: 18px;
   color: #fff;
 }
-.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top svg {
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .box-info-top svg {
   margin: 0 12px;
 }
-.movie-comment .content .center .movie-comment-box .movie-comment-box-info .top span {
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .box-info-top span {
   color: #fff;
 }
-.movie-comment .content .center .movie-comment-box .movie-comment-box-info .bottom p {
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .box-info-bottom p {
   color: #fff;
   line-height: 31px;
   font-weight: 300;
 }
-.movie-comment .content .center .movie-comment-box .movie-comment-box-info .bottom a {
+.movie-comment .content .center .movie-comment-box .movie-comment-box-info .box-info-bottom a {
   color: #FFBB00;
 }
 .movie-comment .content .bottom {

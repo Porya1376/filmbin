@@ -344,6 +344,16 @@ header {
 
 .movie-comment {
     background-color: $blue100;
+    position: relative;
+
+    .right-background, .left-background{
+        position: absolute;
+        top: 35%;
+    }
+    .left-background{
+        left: 0;
+    }
+    
 
     .content {
         display: flex;
@@ -360,12 +370,17 @@ header {
         .center {
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
 
-
+            .center-border{
+                margin: 0 15px;
+                background-color: $black200;
+            }
             .movie-comment-box {
                 display: flex;
-                margin-right: 41px;
+
+                
 
                 .movie-comment-box-image {
                     margin-left: 16px;
@@ -377,7 +392,7 @@ header {
                 }
 
                 .movie-comment-box-info {
-                    .top {
+                    .box-info-top {
                         display: flex;
                         align-items: center;
 
@@ -396,7 +411,7 @@ header {
                         }
                     }
 
-                    .bottom {
+                    .box-info-bottom {
                         p {
                             color: $white100;
                             line-height: 31px;
