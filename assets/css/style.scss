@@ -346,14 +346,16 @@ header {
     background-color: $blue100;
     position: relative;
 
-    .right-background, .left-background{
+    .right-background,
+    .left-background {
         position: absolute;
         top: 35%;
     }
-    .left-background{
+
+    .left-background {
         left: 0;
     }
-    
+
 
     .content {
         display: flex;
@@ -373,14 +375,15 @@ header {
             align-items: center;
 
 
-            .center-border{
+            .center-border {
                 margin: 0 15px;
                 background-color: $black200;
             }
+
             .movie-comment-box {
                 display: flex;
 
-                
+
 
                 .movie-comment-box-image {
                     margin-left: 16px;
@@ -446,16 +449,123 @@ header {
                     border: 1px solid $yellow200;
                     border-radius: 6px;
                     padding: 6px 14px;
-                    
+
                 }
 
             }
-            .left{
-                a{
+
+            .left {
+                a {
                     font-weight: 400;
                     color: $white100;
 
                 }
+
+            }
+        }
+    }
+
+    hr {
+        margin: 0;
+    }
+}
+
+.movie-reports {
+    background-color: $blue100;
+    padding: 20px 0px;
+
+    .content {
+        .top {
+            color: $white100;
+            font-size: 26px;
+            font-weight: 300;
+            h4{
+                
+            }
+        }
+
+        .bottom {
+
+            display: flex;
+            margin: 20px 0;
+
+            .clip {
+                position: relative;
+                width: 40%;
+                margin-left: 50px;
+
+                svg {
+                    top: 31%;
+                    position: absolute;
+                    right: 45%;
+                }
+
+                span {
+                    top: 64%;
+                    position: absolute;
+                    left: 3%;
+                    color: $white100;
+                    background-color: black;
+                    padding: 2px 18px;
+                    border-radius: 2px;
+                }
+                .bottom-note h4{
+                    color: $white100;
+                    font-size: 25px;
+                    font-weight: 300;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    hr {
+        margin: 0;
+    }
+
+
+}
+
+.movie-recommend {
+    background-color: $blue100;
+    padding-top: 25px;
+
+    .content {
+
+        .top {
+            color: $white100;
+            font-size: 23px;
+            font-weight: 300;
+            margin-bottom: 35px;
+        }
+
+        .center {
+
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .movie-recommend-list {
+
+                img {
+
+                    border-radius: 10px;
+                }
+
+            }
+
+        }
+
+        .bottom {
+
+            display: flex;
+            justify-content: end;
+            margin: 0;
+
+            a {
+                color: $white100;
+                font-size: 16px;
+                font-weight: 300;
 
             }
         }

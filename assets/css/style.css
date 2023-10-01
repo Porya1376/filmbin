@@ -269,7 +269,8 @@ header .content .user-box .action :first-child {
   background-color: #182131;
   position: relative;
 }
-.movie-comment .right-background, .movie-comment .left-background {
+.movie-comment .right-background,
+.movie-comment .left-background {
   position: absolute;
   top: 35%;
 }
@@ -345,4 +346,78 @@ header .content .user-box .action :first-child {
 .movie-comment .content .bottom .left a {
   font-weight: 400;
   color: #fff;
+}
+.movie-comment hr {
+  margin: 0;
+}
+
+.movie-reports {
+  background-color: #182131;
+  padding: 20px 0px;
+}
+.movie-reports .content .top {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+}
+.movie-reports .content .bottom {
+  display: flex;
+  margin: 20px 0;
+}
+.movie-reports .content .bottom .clip {
+  position: relative;
+  width: 40%;
+  margin-left: 50px;
+}
+.movie-reports .content .bottom .clip svg {
+  top: 31%;
+  position: absolute;
+  right: 45%;
+}
+.movie-reports .content .bottom .clip span {
+  top: 64%;
+  position: absolute;
+  left: 3%;
+  color: #fff;
+  background-color: black;
+  padding: 2px 18px;
+  border-radius: 2px;
+}
+.movie-reports .content .bottom .clip .bottom-note h4 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+.movie-reports hr {
+  margin: 0;
+}
+
+.movie-recommend {
+  background-color: #182131;
+  padding-top: 25px;
+}
+.movie-recommend .content .top {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.movie-recommend .content .center {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.movie-recommend .content .center .movie-recommend-list img {
+  border-radius: 10px;
+}
+.movie-recommend .content .bottom {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+}
+.movie-recommend .content .bottom a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
